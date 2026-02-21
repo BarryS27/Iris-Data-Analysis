@@ -34,8 +34,8 @@ $$r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \s
 ### Phase 3: Spatial Proximity & Distance (Charts 11–13)
 The study applied **Heatmaps** and **Parallel Coordinates** to visualize the "closeness" of species clusters.
 * **Mathematical Basis:** Cluster similarity was quantified using **Euclidean Distance** ($L_2$ norm) between species centroids in 4D space:
-$$d(\mathbf{p}, \mathbf{q}) = \sqrt{\sum_{i=1}^{n} (p_i - q_i)^2$$
-* **Finding:** Distance matrices confirm that *Versicolor* and *Virginica* are mathematical near-neighbors, while *Setosa* remains geographically isolated.
+$$d(\mathbf{p}, \mathbf{q}) = \sqrt{\sum_{i=1}^{n} (p_i - q_i)^2}$$
+* **Key Finding:** Distance matrices confirm that *Versicolor* and *Virginica* are mathematical near-neighbors, while *Setosa* remains geographically isolated.
 
 ### Phase 4: High-Dimensional Mapping (Charts 14–16)
 The final stage employed **Principal Component Analysis (PCA)** and **Andrews Curves** for a definitive verdict.
