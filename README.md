@@ -39,7 +39,7 @@ Analysis utilized **Boxplots** and **Violin Plots** to visualize the median, int
 
 **Joint Plots** and **Pair Plots** were employed to map how measurements co-vary.
 
-![Feature Interactions](images/chart_2.png)
+![Feature Interactions](https://raw.githubusercontent.com/BarryS27/Iris-Data-Analysis/main/images/chart_2.webp)
 
 **Analysis:** The pair plot matrix provides a comprehensive visualization of the 4D feature space. Observations indicate that *Iris setosa* occupies a distinctly isolated cluster across all petal-related dimensions. Conversely, *Iris versicolor* and *Iris virginica* exhibit significant overlap in sepal measurements, though they begin to diverge linearly as petal length increases. This visualization identifies petal characteristics as the primary discriminatory variables for species classification.
 
@@ -63,11 +63,11 @@ The study applied **Heatmaps** and **Parallel Coordinates** to visualize the "cl
 
 The final stage employed **Principal Component Analysis (PCA)** and **Andrews Curves** for a definitive verdict.
 
-![PCA Projection](images/chart_7.png)
+![PCA Projection](https://raw.githubusercontent.com/BarryS27/Iris-Data-Analysis/main/images/chart_7.webp)
 
 **Analysis:** The PCA projection captures over **95% of the total variance** within the first two principal components. The visualization confirms that while *Iris setosa* forms a dense, autonomous cluster, a "morphological bridge" exists between *Iris versicolor* and *Iris virginica*. This spatial proximity suggests that these two species share highly similar trait ratios, making them mathematically difficult to separate using simple linear boundaries.
 
-![Andrews Curves Mapping](images/chart_9.png)
+![Andrews Curves Mapping](https://raw.githubusercontent.com/BarryS27/Iris-Data-Analysis/main/images/chart_9.webp)
 
 **Analysis:** Andrews Curves map the multi-dimensional biometric vectors into a functional domain. The resulting waveforms reveal a clear "harmonic" distinction for *Iris setosa*, while *Iris versicolor* and *Iris virginica* display nearly identical phase and frequency patterns. This "phase resonance" suggests that the latter two species share a similar morphological blueprint, confirming their status as near-neighbors in the feature space.
 
